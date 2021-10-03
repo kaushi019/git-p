@@ -1,0 +1,32 @@
+
+                        /*       ************************        Simple Selectors       ************************        */
+
+*{
+    margin:0;
+    padding: 0;      /*universal selector*/
+}
+
+p{
+    font-size: medium;     /*element selector*/
+}
+
+#para{
+    color: green;      /*id selector */
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;      /*class selector*/
+}
+
+p.center{
+    text-decoration: underline;       /*element with class name = "center" */
+}
+
+h1,h2,h3{
+    text-decoration: wavy;          /*grouping selectors*/
+}
+
+
+
+

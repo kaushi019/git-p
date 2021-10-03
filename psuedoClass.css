@@ -1,0 +1,48 @@
+
+                    /*       ************************        Psuedo Classes       ************************        */
+
+a:hover{
+    font-size: xx-large;          /*psuedo classes*/
+}
+
+a.new:hover{
+    color: green;              /*psuedo with html class*/
+}
+
+/****************     for above 2nd link a:hover will also apply                 ******************/
+
+
+
+/*tooltip hover*/
+p.hover, h4{
+    display: none;
+    background-color: yellow;
+}
+
+div:hover p{
+    display: block;
+}
+
+/*       first P at every occurence in the doc.     */
+/* p:first-child {
+    color: blue;
+} */
+
+
+/*       first I in every P elements               */
+/* p i:first-child {
+    color: blue;
+} */
+
+
+/*      all I elements of first P's in every occurence          */
+/* p:first-child i {
+    color: blue;
+} */
+
+
+q:lang(no) {
+    quotes: "~" "~";             /*   lang psuedo class    :lang pseudo-class allows you to define special rules for different languages.
+                                            In the example below, :lang defines the quotation marks for <q> elements with lang="no":*/
+}
+

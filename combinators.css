@@ -1,0 +1,36 @@
+
+                    /*       ************************        Combinators       ************************        */
+
+
+
+/*descendant selector = all p's which come under div*/
+
+div p{
+    background-color: yellow;
+}
+
+
+
+/*child selector = all p's which are immediate inside of div */
+
+/* div > p{
+     background-color: yellowgreen;
+} */
+
+
+
+/*adjacent sibling selector = p's which are immediate adjacent to div
+    div + p     & p + div are different
+*/
+
+/* div + p{
+    background-color: lightblue;     
+} */
+
+
+
+/*General sibling selectors = selects all the p's that are next to the div*/
+
+/* div ~ p{
+    text-decoration: underline;
+} */
