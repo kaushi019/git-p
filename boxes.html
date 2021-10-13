@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .b1{
+            margin:15px 25px 35px 45px;
+            border: 30px solid green;
+            padding: 10px 30px 50px 40px;
+            background-color: lavender;
+        }
+        .b2{
+            box-sizing: content-box;
+            margin:15px 25px 35px 45px;
+            border: 20px solid rgb(0, 30, 128);
+            padding: 90px 300px 50px 40px;   
+            background-color: lavender;
+        }
+        .b3{
+            box-sizing: border-box;
+            margin:15px 25px 35px 45px;
+            border: 20px solid rgb(0, 30, 128);
+            padding: 90px 150px 50px 40px;   
+            background-color: lavender;
+            /* height: 280px; */
+            /* overflow: hidden; */
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="b1">
+        <p> <b>Normal Box</b>
+            <br>
+            Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6
+        </p>
+    </div>
+
+    <div class="b2">
+        <p> <b>content-box property</b>
+            <br>
+            Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6
+            Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6
+        </p>
+    </div>
+    
+    <div class="b3">
+        <p> <b>border-box property</b>
+            <br>
+            Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6Windows PowerShell
+            Copyright (C) Microsoft Corporation. All rights reserved.
+            Try the new cross-platform PowerShell https://aka.ms/pscore6
+        </p>
+    </div>
+
+</body>
+</html>
+
+
